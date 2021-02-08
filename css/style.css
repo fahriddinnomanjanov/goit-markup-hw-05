@@ -430,6 +430,9 @@ ol {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
+}
+
+.reg__customers-link {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -440,8 +443,7 @@ ol {
   flex-wrap: wrap;
   transition: border 250ms linear;
 }
-
-.reg__customers-item .reg__customers-svg {
+.reg__customers-link .reg__customers-svg {
   fill: #afb1b8;
   transition: color 250ms linear, fill 250ms linear;
 }
@@ -449,11 +451,11 @@ ol {
 .reg__customers-link:hover .reg__customers-svg,
 .reg__customers-link:focus .reg__customers-svg {
   fill: #2196f3;
-  color: #188ce8;
 }
 
-.reg__customers-link:hover .reg__customers-item {
+.reg__customers-link:hover {
   border: 1px solid #2196f3;
+
   box-sizing: border-box;
   border-radius: 4px;
 }
