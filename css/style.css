@@ -522,11 +522,12 @@ ol {
 .footer_icon--link {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  transition: color 250ms linear;
+  transition: background-color 500ms linear;
 }
 
 .footer_icon--list {
@@ -539,22 +540,9 @@ ol {
   background-color: #188ce8;
   border-radius: 50%;
 }
-.footer_icon--link:hover .footer_icon--svg,
-.footer_icon--link:focus .footer_icon--svg {
-  fill: #ffffff;
-}
 
 .footer_icon--item {
   display: flex;
-}
-
-.footer_icon--svg use {
-  color: #ffffff;
-}
-
-.footer_icon--link {
-  display: flex;
-  justify-content: center;
 }
 
 .footer_icon--item:not(:last-child) {
@@ -565,16 +553,6 @@ ol {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-  transition: fill 250ms linear;
-}
-.footer_icon--use {
-  transition: background-color 250ms linear;
-}
-.footer_icon--use:hover,
-.footer_icon--use:focus {
-  width: 44px;
-  height: 44px;
-  background-color: #188ce8;
 }
 
 /* Портфолио */
